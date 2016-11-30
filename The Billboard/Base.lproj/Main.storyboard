@@ -134,7 +134,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="KHS-y1-PTQ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
