@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		228B3E6E1DEE6F35002D8F66 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B3E6D1DEE6F35002D8F66 /* PostTableViewCell.swift */; };
 		46FBEE951DEE568800BEB059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEE941DEE568800BEB059 /* AppDelegate.swift */; };
 		46FBEE971DEE568800BEB059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEE961DEE568800BEB059 /* ViewController.swift */; };
 		46FBEE9A1DEE568800BEB059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FBEE981DEE568800BEB059 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		228B3E6D1DEE6F35002D8F66 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostTableViewCell.swift; path = "The Billboard/PostTableViewCell.swift"; sourceTree = "<group>"; };
 		46FBEE911DEE568800BEB059 /* The Billboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Billboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46FBEE941DEE568800BEB059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46FBEE961DEE568800BEB059 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		228B3E6F1DEE6F4D002D8F66 /* Cell view */ = {
+			isa = PBXGroup;
+			children = (
+				228B3E6D1DEE6F35002D8F66 /* PostTableViewCell.swift */,
+			);
+			name = "Cell view";
+			path = ..;
+			sourceTree = "<group>";
+		};
 		46FBEE881DEE568800BEB059 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +112,7 @@
 		46FBEE931DEE568800BEB059 /* The Billboard */ = {
 			isa = PBXGroup;
 			children = (
+				228B3E6F1DEE6F4D002D8F66 /* Cell view */,
 				46FBEE941DEE568800BEB059 /* AppDelegate.swift */,
 				46FBEEC21DEE5B7900BEB059 /* View Controllers */,
 				46FBEE981DEE568800BEB059 /* Main.storyboard */,
@@ -278,6 +290,7 @@
 			files = (
 				46FBEEC61DEE5BFE00BEB059 /* TabViewController.swift in Sources */,
 				46FBEE971DEE568800BEB059 /* ViewController.swift in Sources */,
+				228B3E6E1DEE6F35002D8F66 /* PostTableViewCell.swift in Sources */,
 				46FBEE951DEE568800BEB059 /* AppDelegate.swift in Sources */,
 				46FBEECA1DEE624000BEB059 /* RegisterViewController.swift in Sources */,
 			);
@@ -530,6 +543,7 @@
 				46FBEEBB1DEE568800BEB059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46FBEEBC1DEE568800BEB059 /* Build configuration list for PBXNativeTarget "The BillboardTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +552,7 @@
 				46FBEEBE1DEE568800BEB059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46FBEEBF1DEE568800BEB059 /* Build configuration list for PBXNativeTarget "The BillboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +561,7 @@
 				46FBEEC11DEE568800BEB059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
