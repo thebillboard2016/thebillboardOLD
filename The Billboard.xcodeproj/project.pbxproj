@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46FBEE951DEE568800BEB059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEE941DEE568800BEB059 /* AppDelegate.swift */; };
+		46FBEE971DEE568800BEB059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEE961DEE568800BEB059 /* ViewController.swift */; };
+		46FBEE9A1DEE568800BEB059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FBEE981DEE568800BEB059 /* Main.storyboard */; };
+		46FBEE9C1DEE568800BEB059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46FBEE9B1DEE568800BEB059 /* Assets.xcassets */; };
+		46FBEE9F1DEE568800BEB059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FBEE9D1DEE568800BEB059 /* LaunchScreen.storyboard */; };
+		46FBEEAA1DEE568800BEB059 /* The_BillboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEEA91DEE568800BEB059 /* The_BillboardTests.swift */; };
+		46FBEEB51DEE568800BEB059 /* The_BillboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEEB41DEE568800BEB059 /* The_BillboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46FBEEA61DEE568800BEB059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46FBEE891DEE568800BEB059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FBEE901DEE568800BEB059;
+			remoteInfo = "The Billboard";
+		};
+		46FBEEB11DEE568800BEB059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46FBEE891DEE568800BEB059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FBEE901DEE568800BEB059;
+			remoteInfo = "The Billboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46FBEE911DEE568800BEB059 /* The Billboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Billboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FBEE941DEE568800BEB059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46FBEE961DEE568800BEB059 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46FBEE991DEE568800BEB059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46FBEE9B1DEE568800BEB059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46FBEE9E1DEE568800BEB059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46FBEEA01DEE568800BEB059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FBEEA51DEE568800BEB059 /* The BillboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The BillboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FBEEA91DEE568800BEB059 /* The_BillboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_BillboardTests.swift; sourceTree = "<group>"; };
+		46FBEEAB1DEE568800BEB059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FBEEB01DEE568800BEB059 /* The BillboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The BillboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FBEEB41DEE568800BEB059 /* The_BillboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_BillboardUITests.swift; sourceTree = "<group>"; };
+		46FBEEB61DEE568800BEB059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46FBEE8E1DEE568800BEB059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FBEEA21DEE568800BEB059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FBEEAD1DEE568800BEB059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46FBEE881DEE568800BEB059 = {
+			isa = PBXGroup;
+			children = (
+				46FBEE931DEE568800BEB059 /* The Billboard */,
+				46FBEEA81DEE568800BEB059 /* The BillboardTests */,
+				46FBEEB31DEE568800BEB059 /* The BillboardUITests */,
+				46FBEE921DEE568800BEB059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46FBEE921DEE568800BEB059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46FBEE911DEE568800BEB059 /* The Billboard.app */,
+				46FBEEA51DEE568800BEB059 /* The BillboardTests.xctest */,
+				46FBEEB01DEE568800BEB059 /* The BillboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46FBEE931DEE568800BEB059 /* The Billboard */ = {
+			isa = PBXGroup;
+			children = (
+				46FBEE941DEE568800BEB059 /* AppDelegate.swift */,
+				46FBEE961DEE568800BEB059 /* ViewController.swift */,
+				46FBEE981DEE568800BEB059 /* Main.storyboard */,
+				46FBEE9B1DEE568800BEB059 /* Assets.xcassets */,
+				46FBEE9D1DEE568800BEB059 /* LaunchScreen.storyboard */,
+				46FBEEA01DEE568800BEB059 /* Info.plist */,
+			);
+			path = "The Billboard";
+			sourceTree = "<group>";
+		};
+		46FBEEA81DEE568800BEB059 /* The BillboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				46FBEEA91DEE568800BEB059 /* The_BillboardTests.swift */,
+				46FBEEAB1DEE568800BEB059 /* Info.plist */,
+			);
+			path = "The BillboardTests";
+			sourceTree = "<group>";
+		};
+		46FBEEB31DEE568800BEB059 /* The BillboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46FBEEB41DEE568800BEB059 /* The_BillboardUITests.swift */,
+				46FBEEB61DEE568800BEB059 /* Info.plist */,
+			);
+			path = "The BillboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46FBEE901DEE568800BEB059 /* The Billboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FBEEB91DEE568800BEB059 /* Build configuration list for PBXNativeTarget "The Billboard" */;
+			buildPhases = (
+				46FBEE8D1DEE568800BEB059 /* Sources */,
+				46FBEE8E1DEE568800BEB059 /* Frameworks */,
+				46FBEE8F1DEE568800BEB059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Billboard";
+			productName = "The Billboard";
+			productReference = 46FBEE911DEE568800BEB059 /* The Billboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46FBEEA41DEE568800BEB059 /* The BillboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FBEEBC1DEE568800BEB059 /* Build configuration list for PBXNativeTarget "The BillboardTests" */;
+			buildPhases = (
+				46FBEEA11DEE568800BEB059 /* Sources */,
+				46FBEEA21DEE568800BEB059 /* Frameworks */,
+				46FBEEA31DEE568800BEB059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46FBEEA71DEE568800BEB059 /* PBXTargetDependency */,
+			);
+			name = "The BillboardTests";
+			productName = "The BillboardTests";
+			productReference = 46FBEEA51DEE568800BEB059 /* The BillboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46FBEEAF1DEE568800BEB059 /* The BillboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FBEEBF1DEE568800BEB059 /* Build configuration list for PBXNativeTarget "The BillboardUITests" */;
+			buildPhases = (
+				46FBEEAC1DEE568800BEB059 /* Sources */,
+				46FBEEAD1DEE568800BEB059 /* Frameworks */,
+				46FBEEAE1DEE568800BEB059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46FBEEB21DEE568800BEB059 /* PBXTargetDependency */,
+			);
+			name = "The BillboardUITests";
+			productName = "The BillboardUITests";
+			productReference = 46FBEEB01DEE568800BEB059 /* The BillboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46FBEE891DEE568800BEB059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "The Billboard";
+				TargetAttributes = {
+					46FBEE901DEE568800BEB059 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4AGM7R9538;
+						ProvisioningStyle = Automatic;
+					};
+					46FBEEA41DEE568800BEB059 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4AGM7R9538;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46FBEE901DEE568800BEB059;
+					};
+					46FBEEAF1DEE568800BEB059 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4AGM7R9538;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46FBEE901DEE568800BEB059;
+					};
+				};
+			};
+			buildConfigurationList = 46FBEE8C1DEE568800BEB059 /* Build configuration list for PBXProject "The Billboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46FBEE881DEE568800BEB059;
+			productRefGroup = 46FBEE921DEE568800BEB059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46FBEE901DEE568800BEB059 /* The Billboard */,
+				46FBEEA41DEE568800BEB059 /* The BillboardTests */,
+				46FBEEAF1DEE568800BEB059 /* The BillboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46FBEE8F1DEE568800BEB059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FBEE9F1DEE568800BEB059 /* LaunchScreen.storyboard in Resources */,
+				46FBEE9C1DEE568800BEB059 /* Assets.xcassets in Resources */,
+				46FBEE9A1DEE568800BEB059 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FBEEA31DEE568800BEB059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FBEEAE1DEE568800BEB059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46FBEE8D1DEE568800BEB059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FBEE971DEE568800BEB059 /* ViewController.swift in Sources */,
+				46FBEE951DEE568800BEB059 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FBEEA11DEE568800BEB059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FBEEAA1DEE568800BEB059 /* The_BillboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FBEEAC1DEE568800BEB059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FBEEB51DEE568800BEB059 /* The_BillboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46FBEEA71DEE568800BEB059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46FBEE901DEE568800BEB059 /* The Billboard */;
+			targetProxy = 46FBEEA61DEE568800BEB059 /* PBXContainerItemProxy */;
+		};
+		46FBEEB21DEE568800BEB059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46FBEE901DEE568800BEB059 /* The Billboard */;
+			targetProxy = 46FBEEB11DEE568800BEB059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46FBEE981DEE568800BEB059 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46FBEE991DEE568800BEB059 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46FBEE9D1DEE568800BEB059 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46FBEE9E1DEE568800BEB059 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46FBEEB71DEE568800BEB059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46FBEEB81DEE568800BEB059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46FBEEBA1DEE568800BEB059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4AGM7R9538;
+				INFOPLIST_FILE = "The Billboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thebillboard.The-Billboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		46FBEEBB1DEE568800BEB059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4AGM7R9538;
+				INFOPLIST_FILE = "The Billboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thebillboard.The-Billboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		46FBEEBD1DEE568800BEB059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4AGM7R9538;
+				INFOPLIST_FILE = "The BillboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thebillboard.The-BillboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Billboard.app/The Billboard";
+			};
+			name = Debug;
+		};
+		46FBEEBE1DEE568800BEB059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4AGM7R9538;
+				INFOPLIST_FILE = "The BillboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thebillboard.The-BillboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Billboard.app/The Billboard";
+			};
+			name = Release;
+		};
+		46FBEEC01DEE568800BEB059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4AGM7R9538;
+				INFOPLIST_FILE = "The BillboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thebillboard.The-BillboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "The Billboard";
+			};
+			name = Debug;
+		};
+		46FBEEC11DEE568800BEB059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4AGM7R9538;
+				INFOPLIST_FILE = "The BillboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thebillboard.The-BillboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "The Billboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46FBEE8C1DEE568800BEB059 /* Build configuration list for PBXProject "The Billboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FBEEB71DEE568800BEB059 /* Debug */,
+				46FBEEB81DEE568800BEB059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46FBEEB91DEE568800BEB059 /* Build configuration list for PBXNativeTarget "The Billboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FBEEBA1DEE568800BEB059 /* Debug */,
+				46FBEEBB1DEE568800BEB059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46FBEEBC1DEE568800BEB059 /* Build configuration list for PBXNativeTarget "The BillboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FBEEBD1DEE568800BEB059 /* Debug */,
+				46FBEEBE1DEE568800BEB059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46FBEEBF1DEE568800BEB059 /* Build configuration list for PBXNativeTarget "The BillboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FBEEC01DEE568800BEB059 /* Debug */,
+				46FBEEC11DEE568800BEB059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46FBEE891DEE568800BEB059 /* Project object */;
+}
