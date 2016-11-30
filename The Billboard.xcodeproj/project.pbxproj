@@ -15,7 +15,7 @@
 		46FBEEAA1DEE568800BEB059 /* The_BillboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEEA91DEE568800BEB059 /* The_BillboardTests.swift */; };
 		46FBEEB51DEE568800BEB059 /* The_BillboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEEB41DEE568800BEB059 /* The_BillboardUITests.swift */; };
 		46FBEEC61DEE5BFE00BEB059 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEEC51DEE5BFE00BEB059 /* TabViewController.swift */; };
-		46FBEEC81DEE614D00BEB059 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEEC71DEE614D00BEB059 /* RegisterViewController.swift */; };
+		46FBEECA1DEE624000BEB059 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEEC91DEE624000BEB059 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		46FBEEB41DEE568800BEB059 /* The_BillboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_BillboardUITests.swift; sourceTree = "<group>"; };
 		46FBEEB61DEE568800BEB059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46FBEEC51DEE5BFE00BEB059 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
-		46FBEEC71DEE614D00BEB059 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		46FBEEC91DEE624000BEB059 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				46FBEEC51DEE5BFE00BEB059 /* TabViewController.swift */,
+				46FBEEC91DEE624000BEB059 /* RegisterViewController.swift */,
 				46FBEE961DEE568800BEB059 /* ViewController.swift */,
-				46FBEEC71DEE614D00BEB059 /* RegisterViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -279,7 +279,7 @@
 				46FBEEC61DEE5BFE00BEB059 /* TabViewController.swift in Sources */,
 				46FBEE971DEE568800BEB059 /* ViewController.swift in Sources */,
 				46FBEE951DEE568800BEB059 /* AppDelegate.swift in Sources */,
-				46FBEEC81DEE614D00BEB059 /* RegisterViewController.swift in Sources */,
+				46FBEECA1DEE624000BEB059 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
