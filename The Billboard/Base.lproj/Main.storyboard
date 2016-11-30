@@ -98,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
         </scene>
-        <!--Item 2-->
+        <!--Map-->
         <scene sceneID="uTp-Y9-OTv">
             <objects>
-                <viewController id="maB-62-U59" sceneMemberID="viewController">
+                <viewController title="Map" id="maB-62-U59" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sy2-4v-VHC"/>
                         <viewControllerLayoutGuide type="bottom" id="JBu-65-nRM"/>
@@ -111,7 +111,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="k6o-gY-NRd"/>
+                    <tabBarItem key="tabBarItem" title="Map" id="k6o-gY-NRd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ACw-9P-rdS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -229,10 +229,10 @@
             </objects>
             <point key="canvasLocation" x="988" y="-692.20389805097454"/>
         </scene>
-        <!--Tab View Controller-->
+        <!--Tabs-->
         <scene sceneID="TdY-bD-0dJ">
             <objects>
-                <tabBarController id="ZKL-rO-ekv" customClass="TabViewController" customModule="The_Billboard" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController title="Tabs" id="ZKL-rO-ekv" customClass="TabViewController" customModule="The_Billboard" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="zcx-mH-aBA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -247,7 +247,7 @@
             </objects>
             <point key="canvasLocation" x="1010" y="121"/>
         </scene>
-        <!--Item-->
+        <!--Posts-->
         <scene sceneID="870-nJ-Z0U">
             <objects>
                 <tableViewController id="iS3-av-Xqr" sceneMemberID="viewController">
@@ -287,7 +287,7 @@
                             <outlet property="delegate" destination="iS3-av-Xqr" id="GlO-Zt-hka"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="VY7-cG-PRe"/>
+                    <tabBarItem key="tabBarItem" title="Posts" id="VY7-cG-PRe"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DT2-Gm-4Em" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
