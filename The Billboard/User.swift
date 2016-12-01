@@ -9,6 +9,7 @@
 import Foundation
 
 // Define data model to store user data
+
 class User
 {
     // Properties
