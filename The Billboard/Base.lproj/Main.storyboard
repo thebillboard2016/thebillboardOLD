@@ -186,6 +186,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqK-1W-lXk">
                                 <rect key="frame" x="46" y="317" width="283" height="30"/>
                                 <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="registerButton:" destination="sdq-AZ-qe6" eventType="touchUpInside" id="VNa-Ql-lI4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xD6-Pe-XJq">
                                 <rect key="frame" x="46" y="355" width="283" height="30"/>
@@ -223,6 +226,12 @@
                             <constraint firstAttribute="trailingMargin" secondItem="NVO-kk-4Qn" secondAttribute="trailing" constant="30" id="y5B-zR-7wl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="confirmPasswordField" destination="yvl-7A-VBQ" id="hMf-Jx-vNc"/>
+                        <outlet property="emailAddressField" destination="1qu-OK-Ms2" id="jTA-Ln-Kmm"/>
+                        <outlet property="passwordField" destination="UfX-hg-SQL" id="dTG-za-i8W"/>
+                        <outlet property="usernameField" destination="UP7-7r-qM3" id="kR4-2K-rDE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vrI-39-0Yp" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="QzO-9Z-pIo" userLabel="Exit" sceneMemberID="exit"/>
@@ -260,7 +269,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GVk-HF-Orz" id="KS4-1T-fEo">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="119"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="dAh-59-9Qs">
