@@ -229,25 +229,6 @@
             </objects>
             <point key="canvasLocation" x="988" y="-692.20389805097454"/>
         </scene>
-        <!--Item 1-->
-        <scene sceneID="cgX-yN-CZA">
-            <objects>
-                <viewController id="Rag-Gy-gsm" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lyA-jd-IPx"/>
-                        <viewControllerLayoutGuide type="bottom" id="72Q-zJ-TBw"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="d8B-c0-VWb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="O6J-is-KRG"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="H7i-kC-V9z" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1964" y="-205"/>
-        </scene>
         <!--Tab View Controller-->
         <scene sceneID="TdY-bD-0dJ">
             <objects>
@@ -279,7 +260,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GVk-HF-Orz" id="KS4-1T-fEo">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="119"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="dAh-59-9Qs">
