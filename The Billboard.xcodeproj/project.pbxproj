@@ -18,6 +18,7 @@
 		46FBEEB51DEE568800BEB059 /* The_BillboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEEB41DEE568800BEB059 /* The_BillboardUITests.swift */; };
 		46FBEEC61DEE5BFE00BEB059 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEEC51DEE5BFE00BEB059 /* TabViewController.swift */; };
 		46FBEECA1DEE624000BEB059 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEEC91DEE624000BEB059 /* RegisterViewController.swift */; };
+		46FBEECC1DEFC10B00BEB059 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEECB1DEFC10B00BEB059 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		46FBEEB61DEE568800BEB059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46FBEEC51DEE5BFE00BEB059 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		46FBEEC91DEE624000BEB059 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		46FBEECB1DEFC10B00BEB059 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		46FBEE931DEE568800BEB059 /* The Billboard */ = {
 			isa = PBXGroup;
 			children = (
+				46FBEECB1DEFC10B00BEB059 /* User.swift */,
 				228B3E6F1DEE6F4D002D8F66 /* Cell view */,
 				46FBEE941DEE568800BEB059 /* AppDelegate.swift */,
 				46FBEEC21DEE5B7900BEB059 /* View Controllers */,
@@ -294,6 +297,7 @@
 				228B3E711DEE773F002D8F66 /* postimageViewController.swift in Sources */,
 				46FBEEC61DEE5BFE00BEB059 /* TabViewController.swift in Sources */,
 				46FBEE971DEE568800BEB059 /* ViewController.swift in Sources */,
+				46FBEECC1DEFC10B00BEB059 /* User.swift in Sources */,
 				228B3E6E1DEE6F35002D8F66 /* PostTableViewCell.swift in Sources */,
 				46FBEE951DEE568800BEB059 /* AppDelegate.swift in Sources */,
 				46FBEECA1DEE624000BEB059 /* RegisterViewController.swift in Sources */,
