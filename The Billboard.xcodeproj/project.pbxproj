@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		228B3E6E1DEE6F35002D8F66 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B3E6D1DEE6F35002D8F66 /* PostTableViewCell.swift */; };
+		228B3E711DEE773F002D8F66 /* postimageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B3E701DEE773F002D8F66 /* postimageViewController.swift */; };
 		46FBEE951DEE568800BEB059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEE941DEE568800BEB059 /* AppDelegate.swift */; };
 		46FBEE971DEE568800BEB059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FBEE961DEE568800BEB059 /* ViewController.swift */; };
 		46FBEE9A1DEE568800BEB059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FBEE981DEE568800BEB059 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		228B3E6D1DEE6F35002D8F66 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostTableViewCell.swift; path = "The Billboard/PostTableViewCell.swift"; sourceTree = "<group>"; };
+		228B3E701DEE773F002D8F66 /* postimageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postimageViewController.swift; sourceTree = "<group>"; };
 		46FBEE911DEE568800BEB059 /* The Billboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Billboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46FBEE941DEE568800BEB059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46FBEE961DEE568800BEB059 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		46FBEEC21DEE5B7900BEB059 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				228B3E701DEE773F002D8F66 /* postimageViewController.swift */,
 				46FBEEC51DEE5BFE00BEB059 /* TabViewController.swift */,
 				46FBEEC91DEE624000BEB059 /* RegisterViewController.swift */,
 				46FBEE961DEE568800BEB059 /* ViewController.swift */,
@@ -291,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				228B3E711DEE773F002D8F66 /* postimageViewController.swift in Sources */,
 				46FBEEC61DEE5BFE00BEB059 /* TabViewController.swift in Sources */,
 				46FBEE971DEE568800BEB059 /* ViewController.swift in Sources */,
 				46FBEECC1DEFC10B00BEB059 /* User.swift in Sources */,
