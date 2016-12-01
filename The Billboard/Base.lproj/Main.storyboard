@@ -293,24 +293,6 @@
             </objects>
             <point key="canvasLocation" x="2638" y="-206"/>
         </scene>
-        <!--Post Image-->
-        <scene sceneID="rQ2-4h-uOz">
-            <objects>
-                <viewController title="Post Image" id="qaH-iY-NOf" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Rp2-vE-F3d"/>
-                        <viewControllerLayoutGuide type="bottom" id="2IT-y2-E85"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Mz3-t1-oha">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0xk-dN-b0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3614" y="121"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Image" width="1632" height="1224"/>
