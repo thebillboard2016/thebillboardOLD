@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		228B3E6E1DEE6F35002D8F66 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B3E6D1DEE6F35002D8F66 /* PostTableViewCell.swift */; };
 		228B3E711DEE773F002D8F66 /* postimageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B3E701DEE773F002D8F66 /* postimageViewController.swift */; };
-		4680496F1DF086C100CA1948 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4680496D1DF086C100CA1948 /* Bolts.framework */; };
-		468049701DF086C100CA1948 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4680496E1DF086C100CA1948 /* Parse.framework */; };
 		4680497C1DF0875300CA1948 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468049721DF0875300CA1948 /* AudioToolbox.framework */; };
 		4680497D1DF0875300CA1948 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468049731DF0875300CA1948 /* CFNetwork.framework */; };
 		4680497E1DF0875300CA1948 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468049741DF0875300CA1948 /* CoreGraphics.framework */; };
@@ -53,8 +51,6 @@
 /* Begin PBXFileReference section */
 		228B3E6D1DEE6F35002D8F66 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostTableViewCell.swift; path = "The Billboard/PostTableViewCell.swift"; sourceTree = "<group>"; };
 		228B3E701DEE773F002D8F66 /* postimageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postimageViewController.swift; sourceTree = "<group>"; };
-		4680496D1DF086C100CA1948 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		4680496E1DF086C100CA1948 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		468049721DF0875300CA1948 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		468049731DF0875300CA1948 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		468049741DF0875300CA1948 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -98,8 +94,6 @@
 				468049831DF0875300CA1948 /* Security.framework in Frameworks */,
 				468049841DF0875300CA1948 /* StoreKit.framework in Frameworks */,
 				468049851DF0875300CA1948 /* SystemConfiguration.framework in Frameworks */,
-				468049701DF086C100CA1948 /* Parse.framework in Frameworks */,
-				4680496F1DF086C100CA1948 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,15 +121,6 @@
 			);
 			name = "Cell view";
 			path = ..;
-			sourceTree = "<group>";
-		};
-		4680496C1DF0867A00CA1948 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4680496D1DF086C100CA1948 /* Bolts.framework */,
-				4680496E1DF086C100CA1948 /* Parse.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		468049711DF0875300CA1948 /* Frameworks */ = {
@@ -182,7 +167,6 @@
 				46FBEECB1DEFC10B00BEB059 /* User.swift */,
 				228B3E6F1DEE6F4D002D8F66 /* Cell view */,
 				46FBEE941DEE568800BEB059 /* AppDelegate.swift */,
-				4680496C1DF0867A00CA1948 /* Frameworks */,
 				46FBEEC21DEE5B7900BEB059 /* View Controllers */,
 				46FBEE981DEE568800BEB059 /* Main.storyboard */,
 				46FBEE9B1DEE568800BEB059 /* Assets.xcassets */,
