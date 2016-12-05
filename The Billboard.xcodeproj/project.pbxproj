@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2249DA201DF6020400D1FE5A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249DA1F1DF6020400D1FE5A /* CameraViewController.swift */; };
 		2253932C1DF08004002F69F6 /* postsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2253932B1DF08004002F69F6 /* postsTableViewController.swift */; };
 		2253932E1DF088CE002F69F6 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2253932D1DF088CE002F69F6 /* mapViewController.swift */; };
 		228B3E6E1DEE6F35002D8F66 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B3E6D1DEE6F35002D8F66 /* PostTableViewCell.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2249DA1F1DF6020400D1FE5A /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ../CameraViewController.swift; sourceTree = "<group>"; };
 		2253932B1DF08004002F69F6 /* postsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postsTableViewController.swift; sourceTree = "<group>"; };
 		2253932D1DF088CE002F69F6 /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		228B3E6D1DEE6F35002D8F66 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostTableViewCell.swift; path = "The Billboard/PostTableViewCell.swift"; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				2253932D1DF088CE002F69F6 /* mapViewController.swift */,
 				46FBEEC91DEE624000BEB059 /* RegisterViewController.swift */,
 				46FBEE961DEE568800BEB059 /* ViewController.swift */,
+				2249DA1F1DF6020400D1FE5A /* CameraViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				228B3E711DEE773F002D8F66 /* postimageViewController.swift in Sources */,
+				2249DA201DF6020400D1FE5A /* CameraViewController.swift in Sources */,
 				2253932C1DF08004002F69F6 /* postsTableViewController.swift in Sources */,
 				46FBEEC61DEE5BFE00BEB059 /* TabViewController.swift in Sources */,
 				46FBEE971DEE568800BEB059 /* ViewController.swift in Sources */,

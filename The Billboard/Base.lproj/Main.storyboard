@@ -129,7 +129,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ACw-9P-rdS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1964" y="450.22488755622192"/>
+            <point key="canvasLocation" x="1964" y="36"/>
+        </scene>
+        <!--Camera-->
+        <scene sceneID="z2l-rs-m7P">
+            <objects>
+                <viewController title="Camera" id="m0V-Te-GF6" customClass="CameraViewController" customModule="The_Billboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KsV-Zy-zqn"/>
+                        <viewControllerLayoutGuide type="bottom" id="kSJ-Qp-ETs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KxZ-BZ-RHE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Camera" image="Camera tab bar icon" id="v0c-J5-0s3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i1t-am-ouh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1964" y="721"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="bJz-W1-AOH">
@@ -264,6 +283,7 @@
                     <connections>
                         <segue destination="maB-62-U59" kind="relationship" relationship="viewControllers" id="kwv-2Y-CO3"/>
                         <segue destination="iS3-av-Xqr" kind="relationship" relationship="viewControllers" id="zjL-KN-V0d"/>
+                        <segue destination="m0V-Te-GF6" kind="relationship" relationship="viewControllers" id="TNg-iL-fda"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l94-lT-2oe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -314,10 +334,11 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DT2-Gm-4Em" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1964" y="-238"/>
+            <point key="canvasLocation" x="1964" y="-634"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Camera tab bar icon" width="50" height="50"/>
         <image name="Image" width="1632" height="1224"/>
         <image name="Maps tab bar icon" width="50" height="50"/>
         <image name="Posts tab bar icon" width="50" height="50"/>
