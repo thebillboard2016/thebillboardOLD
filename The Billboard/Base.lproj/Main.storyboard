@@ -113,12 +113,21 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="fyp-SZ-DIK">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cf-OY-3SG">
+                                <rect key="frame" x="8" y="308" width="50" height="50"/>
+                                <state key="normal" image="Back button"/>
+                                <connections>
+                                    <segue destination="EAU-cy-SBE" kind="showDetail" animates="NO" id="1dU-eC-TkL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="fyp-SZ-DIK" firstAttribute="height" secondItem="dp4-Io-mbR" secondAttribute="height" id="0nu-0i-qbR"/>
                             <constraint firstItem="fyp-SZ-DIK" firstAttribute="centerX" secondItem="dp4-Io-mbR" secondAttribute="centerX" id="995-gE-86D"/>
                             <constraint firstItem="fyp-SZ-DIK" firstAttribute="centerY" secondItem="dp4-Io-mbR" secondAttribute="centerY" id="CBb-Kv-vZP"/>
+                            <constraint firstItem="9cf-OY-3SG" firstAttribute="centerY" secondItem="fyp-SZ-DIK" secondAttribute="centerY" id="hBr-J3-Jhp"/>
+                            <constraint firstItem="fyp-SZ-DIK" firstAttribute="leading" secondItem="9cf-OY-3SG" secondAttribute="trailing" constant="-58" id="isS-s9-aJz"/>
                             <constraint firstItem="fyp-SZ-DIK" firstAttribute="width" secondItem="dp4-Io-mbR" secondAttribute="width" id="zic-Us-FNu"/>
                         </constraints>
                     </view>
@@ -129,7 +138,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ACw-9P-rdS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1964" y="36"/>
+            <point key="canvasLocation" x="1964" y="707"/>
         </scene>
         <!--Scroll View Controller-->
         <scene sceneID="tiD-B8-yxu">
@@ -174,13 +183,28 @@
                     <view key="view" contentMode="scaleToFill" id="KxZ-BZ-RHE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y2i-eP-y6o">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Y2i-eP-y6o" firstAttribute="centerX" secondItem="KxZ-BZ-RHE" secondAttribute="centerX" id="DD4-qE-MuW"/>
+                            <constraint firstItem="Y2i-eP-y6o" firstAttribute="height" secondItem="KxZ-BZ-RHE" secondAttribute="height" id="F6O-BP-t5Q"/>
+                            <constraint firstItem="Y2i-eP-y6o" firstAttribute="width" secondItem="KxZ-BZ-RHE" secondAttribute="width" id="dVg-vY-O82"/>
+                            <constraint firstItem="Y2i-eP-y6o" firstAttribute="centerY" secondItem="KxZ-BZ-RHE" secondAttribute="centerY" id="sD1-1i-eyT"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Camera" image="Camera tab bar icon" id="v0c-J5-0s3"/>
+                    <connections>
+                        <outlet property="camreaView" destination="Y2i-eP-y6o" id="Kxt-Oj-2Mh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i1t-am-ouh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1964" y="721"/>
+            <point key="canvasLocation" x="1964" y="35.532233883058474"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="bJz-W1-AOH">
@@ -351,9 +375,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Back button" width="50" height="50"/>
         <image name="Camera tab bar icon" width="50" height="50"/>
         <image name="Image" width="1632" height="1224"/>
         <image name="Maps tab bar icon" width="50" height="50"/>
         <image name="Posts tab bar icon" width="50" height="50"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="1dU-eC-TkL"/>
+    </inferredMetricsTieBreakers>
 </document>

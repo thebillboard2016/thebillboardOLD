@@ -42,9 +42,11 @@ class ScrollViewController: UIViewController {
         MapFrame.origin.x = 2 * self.view.frame.width
         Map?.view.frame = MapFrame
         
+        // Make the scroll view the ocrrect size.
         self.scrollview.contentSize = CGSize(width: (self.view.frame.width) * 3,height: (self.view.frame.height))
         self.scrollview.contentOffset = CGPoint(x: (self.view.frame.width) * 1, y: (self.view.frame.height))
        
+        
     }
 
     override func didReceiveMemoryWarning() {
