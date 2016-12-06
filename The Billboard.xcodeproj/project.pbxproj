@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222D92A81DF655A80008C94D /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D92A71DF655A80008C94D /* ScrollViewController.swift */; };
 		2249DA201DF6020400D1FE5A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249DA1F1DF6020400D1FE5A /* CameraViewController.swift */; };
 		2253932C1DF08004002F69F6 /* postsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2253932B1DF08004002F69F6 /* postsTableViewController.swift */; };
 		2253932E1DF088CE002F69F6 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2253932D1DF088CE002F69F6 /* mapViewController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		222D92A71DF655A80008C94D /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		2249DA1F1DF6020400D1FE5A /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ../CameraViewController.swift; sourceTree = "<group>"; };
 		2253932B1DF08004002F69F6 /* postsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postsTableViewController.swift; sourceTree = "<group>"; };
 		2253932D1DF088CE002F69F6 /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				2253932D1DF088CE002F69F6 /* mapViewController.swift */,
 				46FBEEC91DEE624000BEB059 /* RegisterViewController.swift */,
 				46FBEE961DEE568800BEB059 /* ViewController.swift */,
+				222D92A71DF655A80008C94D /* ScrollViewController.swift */,
 				2249DA1F1DF6020400D1FE5A /* CameraViewController.swift */,
 			);
 			name = "View Controllers";
@@ -310,6 +313,7 @@
 				46FBEE971DEE568800BEB059 /* ViewController.swift in Sources */,
 				46FBEECC1DEFC10B00BEB059 /* User.swift in Sources */,
 				228B3E6E1DEE6F35002D8F66 /* PostTableViewCell.swift in Sources */,
+				222D92A81DF655A80008C94D /* ScrollViewController.swift in Sources */,
 				2253932E1DF088CE002F69F6 /* mapViewController.swift in Sources */,
 				46FBEE951DEE568800BEB059 /* AppDelegate.swift in Sources */,
 				46FBEECA1DEE624000BEB059 /* RegisterViewController.swift in Sources */,
